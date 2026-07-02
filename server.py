@@ -28,7 +28,7 @@ def sent_analyzer():
         f"fear': {response['fear']}, "
         f"joy': {response['joy']}, "
         f"sadness': {response['sadness']}, "
-        f"The dominant emotion is {response['dominant_emotion]']}."
+        f"The dominant emotion is {response['dominant_emotion']}."
     )
 @app.route("/")
 def render_index_page():
