@@ -12,7 +12,7 @@ app = Flask("Emotion Detector")
 @app.route("/emotionDetector")
 def sent_analyzer():
     ''' This code receives the text from the HTML interface and 
-        runs sentiment analysis over it using sentiment_analysis()
+        runs sentiment analysis over it using emotion_detector()
         function. The output returned shows the label and its confidence 
         score for the provided text.
     '''
